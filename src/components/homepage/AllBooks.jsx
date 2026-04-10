@@ -13,8 +13,8 @@ const AllBooks = () => {
             </h2>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
               {
-                books.map((book)=>{
-                    return <BooksCard book={book}/>
+                books.map((book,index)=>{
+                    return <BooksCard key={index} book={book}/>
                 })
             }
           </div>
