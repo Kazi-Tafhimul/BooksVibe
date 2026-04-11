@@ -9,7 +9,7 @@ const Navbar = () => {
         <NavLink to={"/"} className={({isActive})=> `font-semibold mr-1  ${isActive ? "text-green-500 border border-green-500":""}`}>Home</NavLink>
        </li>
        <li>
-        <NavLink to={"/books"} className={({isActive})=> `font-semibold mr-1  ${isActive ? "text-green-500 border border-green-500":""}`} >Books</NavLink>
+        <NavLink to={"/books"} className={({isActive})=> `font-semibold mr-1  ${isActive ? "text-green-500 border border-green-500":""}`} >Listed Books</NavLink>
 
        </li>
        <li>
